@@ -1,4 +1,10 @@
 import React from 'react'
+import { BiLogoFacebook } from "react-icons/bi";
+import { FiTwitter } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { GoPaperAirplane } from "react-icons/go";
+
 
 function Footer() {
     return (
@@ -9,7 +15,20 @@ function Footer() {
                     <ul>
                         <li className='py-2 text-xl text-white'>Subscribe</li>
                         <li className='py-2 text-xl text-white'>Marketing</li>
-                        <input className='p-3 flex w-full rounded-md text-white  bg-black border-b-1' type="email" placeholder='Enter email' />
+                        <h3 className='text-white mt-4'>Get 10% off your first order</h3>
+                        <div className="relative w-full mt-3">
+                            <input
+                                type="email"
+                                placeholder="Enter email"
+                                className="p-3 pl-10 w-full rounded-md text-white bg-black border border-gray-600 focus:outline-none"
+                            />
+                            <GoPaperAirplane
+                                size={20}
+                                color="#fff"
+                                className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer"
+                            />
+                        </div>
+
                     </ul>
                 </div>
                 <div>
@@ -41,14 +60,21 @@ function Footer() {
                 </div>
                 <div>
                     <h6 className='font-medium text-white text-2xl pb-5'>Download App</h6>
+                    <h3 className='text-gray-400 mb-2.5 '>Save $3 With New Users Only </h3>
                     <div className='flex gap-4'>
                         <img src="src/assets/Qrcode 1.svg" alt="" className='' />
                         <div className=''>
                             <img src="src/assets/google playstore.png" alt="" className='mb-2.5' />
                             <img src="src/assets/download-appstore.png" alt="" />
                         </div>
-                    </div>
 
+                    </div>
+                    <div className='flex justify-between mt-3.5'>
+                        <BiLogoFacebook size={25} color='#ffff' />
+                        <FiTwitter size={25} color='#ffff' />
+                        <FaInstagram size={25} color='#ffff' />
+                        <FaLinkedinIn size={25} color='#ffff' />
+                    </div>
 
                 </div>
             </div>
