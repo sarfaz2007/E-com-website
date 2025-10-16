@@ -25,7 +25,7 @@ function Navbar() {
                 {/* Desktop Menu */}
                 <div className="hidden sm:flex items-center gap-8 pr-10">
                     <a href="/">Home</a>
-                    <a href="#">About</a>
+                    <a href="/About">About</a>
                     <a href="#">Contact</a>
                     <a href="#">Sign Up</a>
 

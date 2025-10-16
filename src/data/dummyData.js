@@ -3,10 +3,10 @@ export const mainBannerData = [
     "id": "1",
     "title": "Mega Diwali Sale 🎇",
     "subtitle": "Up to 70% OFF on top brands!",
-    "image": "https://cdn.pixabay.com/photo/2017/11/10/05/24/shopping-2939966_1280.jpg",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWs-ggcJogmBGv4sEeg-9ocT1frH1b4QLdnA&s",
     "cta": "Shop Now",
     "targetType": "category",
-    "targetId": "festive-deals"
+    "targetId": "festive-deals",
   },
   {
     "id": "2",
