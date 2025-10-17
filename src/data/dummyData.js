@@ -3,7 +3,7 @@ export const mainBannerData = [
     "id": "1",
     "title": "Mega Diwali Sale 🎇",
     "subtitle": "Up to 70% OFF on top brands!",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWs-ggcJogmBGv4sEeg-9ocT1frH1b4QLdnA&s",
+    "image": "https://img.freepik.com/free-psd/smartphone-camera-control-social-media-banner-design-template_47987-25416.jpg?semt=ais_hybrid&w=740&q=80",
     "cta": "Shop Now",
     "targetType": "category",
     "targetId": "festive-deals",
@@ -12,7 +12,7 @@ export const mainBannerData = [
     "id": "2",
     "title": "New Arrivals in Fashion 👗",
     "subtitle": "Fresh styles for your wardrobe",
-    "image": "https://cdn.pixabay.com/photo/2016/11/21/15/46/woman-1848949_1280.jpg",
+    "image": "https://img.freepik.com/free-vector/fashion-sale-with-discount-template_23-2148936503.jpg",
     "cta": "Explore",
     "targetType": "category",
     "targetId": "fashion"
@@ -21,7 +21,7 @@ export const mainBannerData = [
     "id": "3",
     "title": "Smartphones Bonanza 📱",
     "subtitle": "Grab the latest phones starting at ₹6,999!",
-    "image": "https://cdn.pixabay.com/photo/2016/11/29/09/32/phone-1869510_1280.jpg",
+    "image": "https://img.freepik.com/premium-vector/exclusive-modern-sports-sneakers-website-landing-page-user-interface-user-experience-design_755018-1717.jpg?semt=ais_hybrid&w=740&q=80",
     "cta": "Buy Now",
     "targetType": "category",
     "targetId": "smartphones"
@@ -30,7 +30,7 @@ export const mainBannerData = [
     "id": "4",
     "title": "Upgrade Your Home 🏠",
     "subtitle": "Best deals on furniture and decor",
-    "image": "https://cdn.pixabay.com/photo/2017/08/01/01/00/people-2568010_1280.jpg",
+    "image": "https://i.ibb.co/KxgWR0tp/Frame-560-1.png",
     "cta": "Shop Furniture",
     "targetType": "category",
     "targetId": "home-decor"

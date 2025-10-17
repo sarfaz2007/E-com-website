@@ -9,7 +9,7 @@ import { GoPaperAirplane } from "react-icons/go";
 function Footer() {
     return (
         <div className='w-full mx-auto bg-black'>
-            <div className='flex flex-wrap justify-between mt-6 py-16 px-40'>
+            <div className='flex flex-wrap justify-between  py-16 px-40'>
                 <div>
                     <h6 className='font-medium text-white text-2xl pb-5'>Exclusive</h6>
                     <ul>
