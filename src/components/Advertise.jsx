@@ -8,7 +8,7 @@ function Advertise() {
     console.log(mainBannerData)
     return (
         <>
-            <div className="flex w-full h-full bg-amber-600">
+            <div className="flex w-full h-full">
                 <Swiper
                     pagination={{
                         dynamicBullets: true,
