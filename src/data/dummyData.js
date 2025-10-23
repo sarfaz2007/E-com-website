@@ -98,9 +98,9 @@ export const flashSaleItems = [
     "title": "Wireless Earbuds Pro",
     "description": "Noise-cancelling Bluetooth earbuds with 24h battery life.",
     "originalPrice": 4999,
-    "discountPercent": 60,
+    "discountPercent": -40,
     "salePrice": 1999,
-    "image": "https://cdn.pixabay.com/photo/2021/01/18/09/42/earphones-5925534_1280.jpg",
+    "image": "src/assets/g92-2-500x500 1 (2).png",
     "stock": 45,
     "endsAt": "2025-10-09T23:59:59Z",
     "category": "electronics"
@@ -110,9 +110,9 @@ export const flashSaleItems = [
     "title": "Smart Fitness Watch",
     "description": "Track your steps, heart rate, and sleep with style.",
     "originalPrice": 6999,
-    "discountPercent": 57,
+    "discountPercent": -35,
     "salePrice": 2999,
-    "image": "https://cdn.pixabay.com/photo/2019/12/14/15/41/smartwatch-4692494_1280.jpg",
+    "image": "src/assets/ak-900-01-500x500 1.png",
     "stock": 25,
     "endsAt": "2025-10-09T23:59:59Z",
     "category": "wearables"
@@ -124,7 +124,7 @@ export const flashSaleItems = [
     "originalPrice": 1999,
     "discountPercent": 50,
     "salePrice": 999,
-    "image": "https://cdn.pixabay.com/photo/2016/11/29/13/12/mouse-1867252_1280.jpg",
+    "image": "src/assets/g27cq4-500x500 1.png",
     "stock": 100,
     "endsAt": "2025-10-09T23:59:59Z",
     "category": "computer-accessories"
@@ -153,66 +153,66 @@ export const flashSaleItems = [
     "endsAt": "2025-10-09T23:59:59Z",
     "category": "beauty"
   },
-  {
-    "id": "6",
-    "title": "Portable Blender Bottle",
-    "description": "USB rechargeable blender for smoothies and shakes.",
-    "originalPrice": 2499,
-    "discountPercent": 64,
-    "salePrice": 899,
-    "image": "https://cdn.pixabay.com/photo/2018/06/28/19/40/blender-3505003_1280.jpg",
-    "stock": 90,
-    "endsAt": "2025-10-09T23:59:59Z",
-    "category": "kitchen"
-  },
-  {
-    "id": "7",
-    "title": "Wireless Keyboard & Mouse Combo",
-    "description": "Sleek design with silent keys and 2.4GHz wireless connection.",
-    "originalPrice": 2999,
-    "discountPercent": 53,
-    "salePrice": 1399,
-    "image": "https://cdn.pixabay.com/photo/2014/12/27/15/40/keyboard-581580_1280.jpg",
-    "stock": 70,
-    "endsAt": "2025-10-09T23:59:59Z",
-    "category": "electronics"
-  },
-  {
-    "id": "8",
-    "title": "Designer Handbag",
-    "description": "Premium PU leather handbag with golden finish zipper.",
-    "originalPrice": 4499,
-    "discountPercent": 66,
-    "salePrice": 1529,
-    "image": "https://cdn.pixabay.com/photo/2016/11/21/15/47/handbag-1849113_1280.jpg",
-    "stock": 40,
-    "endsAt": "2025-10-09T23:59:59Z",
-    "category": "fashion"
-  },
-  {
-    "id": "9",
-    "title": "Laptop Stand Adjustable",
-    "description": "Ergonomic aluminum laptop stand with foldable design.",
-    "originalPrice": 2999,
-    "discountPercent": 58,
-    "salePrice": 1249,
-    "image": "https://cdn.pixabay.com/photo/2017/12/05/11/15/office-3009285_1280.jpg",
-    "stock": 75,
-    "endsAt": "2025-10-09T23:59:59Z",
-    "category": "office"
-  },
-  {
-    "id": "10",
-    "title": "LED Ring Light Kit",
-    "description": "Perfect for makeup, photography, and live streaming.",
-    "originalPrice": 3499,
-    "discountPercent": 60,
-    "salePrice": 1399,
-    "image": "https://cdn.pixabay.com/photo/2017/06/27/08/36/led-2448494_1280.jpg",
-    "stock": 30,
-    "endsAt": "2025-10-09T23:59:59Z",
-    "category": "electronics"
-  }
+  // {
+  //   "id": "6",
+  //   "title": "Portable Blender Bottle",
+  //   "description": "USB rechargeable blender for smoothies and shakes.",
+  //   "originalPrice": 2499,
+  //   "discountPercent": 64,
+  //   "salePrice": 899,
+  //   "image": "https://cdn.pixabay.com/photo/2018/06/28/19/40/blender-3505003_1280.jpg",
+  //   "stock": 90,
+  //   "endsAt": "2025-10-09T23:59:59Z",
+  //   "category": "kitchen"
+  // },
+  // {
+  //   "id": "7",
+  //   "title": "Wireless Keyboard & Mouse Combo",
+  //   "description": "Sleek design with silent keys and 2.4GHz wireless connection.",
+  //   "originalPrice": 2999,
+  //   "discountPercent": 53,
+  //   "salePrice": 1399,
+  //   "image": "https://cdn.pixabay.com/photo/2014/12/27/15/40/keyboard-581580_1280.jpg",
+  //   "stock": 70,
+  //   "endsAt": "2025-10-09T23:59:59Z",
+  //   "category": "electronics"
+  // },
+  // {
+  //   "id": "8",
+  //   "title": "Designer Handbag",
+  //   "description": "Premium PU leather handbag with golden finish zipper.",
+  //   "originalPrice": 4499,
+  //   "discountPercent": 66,
+  //   "salePrice": 1529,
+  //   "image": "https://cdn.pixabay.com/photo/2016/11/21/15/47/handbag-1849113_1280.jpg",
+  //   "stock": 40,
+  //   "endsAt": "2025-10-09T23:59:59Z",
+  //   "category": "fashion"
+  // },
+  // {
+  //   "id": "9",
+  //   "title": "Laptop Stand Adjustable",
+  //   "description": "Ergonomic aluminum laptop stand with foldable design.",
+  //   "originalPrice": 2999,
+  //   "discountPercent": 58,
+  //   "salePrice": 1249,
+  //   "image": "https://cdn.pixabay.com/photo/2017/12/05/11/15/office-3009285_1280.jpg",
+  //   "stock": 75,
+  //   "endsAt": "2025-10-09T23:59:59Z",
+  //   "category": "office"
+  // },
+  // {
+  //   "id": "10",
+  //   "title": "LED Ring Light Kit",
+  //   "description": "Perfect for makeup, photography, and live streaming.",
+  //   "originalPrice": 3499,
+  //   "discountPercent": 60,
+  //   "salePrice": 1399,
+  //   "image": "https://cdn.pixabay.com/photo/2017/06/27/08/36/led-2448494_1280.jpg",
+  //   "stock": 30,
+  //   "endsAt": "2025-10-09T23:59:59Z",
+  //   "category": "electronics"
+  // }
 ]
 
 
