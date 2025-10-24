@@ -136,7 +136,7 @@ export const flashSaleItems = [
     "originalPrice": 3499,
     "discountPercent": 55,
     "salePrice": 1575,
-    "image": "https://cdn.pixabay.com/photo/2016/03/27/07/13/running-shoes-1281080_1280.jpg",
+    "image": "src/assets/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png",
     "stock": 80,
     "endsAt": "2025-10-09T23:59:59Z",
     "category": "fashion"
