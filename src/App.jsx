@@ -7,7 +7,6 @@ import Advertise from './components/Advertise'
 import TodaySale from './components/TodaySale'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

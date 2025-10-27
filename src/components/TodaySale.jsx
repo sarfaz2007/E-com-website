@@ -30,7 +30,7 @@ function TodaySale() {
                         </div>
                     </div>
                     </div>
-                        <div className="flex gap-3 items-end ml-6">
+                        <div className="flex gap-3 items-end ml-6 mr-[300px]">
                             <IoMdArrowRoundBack size={22} className="cursor-pointer" />
                             <IoMdArrowRoundForward size={22} className="cursor-pointer" />
                         </div>
