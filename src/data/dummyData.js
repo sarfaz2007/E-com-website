@@ -220,10 +220,10 @@ export const flashSaleItems = [
 export const categoryData = [
   {
     "id": "1",
-    "name": "Electronics",
+    "name": "Phones",
     "slug": "electronics",
     "description": "Smartphones, laptops, accessories, and more innovative gadgets.",
-    "image": "https://cdn.pixabay.com/photo/2014/08/26/21/48/smartphone-428079_1280.jpg",
+    "image": "src/assets/Category-CellPhone.png",
     "subcategories": [
       { "name": "Mobiles & Tablets", "slug": "mobiles-tablets" },
       { "name": "Laptops", "slug": "laptops" },
@@ -233,10 +233,10 @@ export const categoryData = [
   },
   {
     "id": "2",
-    "name": "Fashion",
+    "name": "Computers",
     "slug": "fashion",
     "description": "Trendy outfits and accessories for men, women, and kids.",
-    "image": "https://cdn.pixabay.com/photo/2016/11/29/06/18/adult-1867743_1280.jpg",
+    "image": "src/assets/Category-Computer.png",
     "subcategories": [
       { "name": "Men", "slug": "men-fashion" },
       { "name": "Women", "slug": "women-fashion" },
@@ -246,10 +246,10 @@ export const categoryData = [
   },
   {
     "id": "3",
-    "name": "Home & Kitchen",
+    "name": "SmartWatch",
     "slug": "home-kitchen",
     "description": "Everything you need to make your home cozy and stylish.",
-    "image": "https://cdn.pixabay.com/photo/2017/08/01/01/00/people-2568010_1280.jpg",
+    "image": "src/assets/Category-SmartWatch.png",
     "subcategories": [
       { "name": "Furniture", "slug": "furniture" },
       { "name": "Cookware", "slug": "cookware" },
@@ -262,7 +262,7 @@ export const categoryData = [
     "name": "Beauty & Personal Care",
     "slug": "beauty-personal-care",
     "description": "Skin care, grooming, and wellness essentials.",
-    "image": "https://cdn.pixabay.com/photo/2017/07/25/09/11/spa-2534469_1280.jpg",
+    "image": "src/assets/Category-Camera (1).png",
     "subcategories": [
       { "name": "Makeup", "slug": "makeup" },
       { "name": "Hair Care", "slug": "hair-care" },
@@ -275,7 +275,7 @@ export const categoryData = [
     "name": "Sports & Fitness",
     "slug": "sports-fitness",
     "description": "Stay active with premium sportswear and fitness equipment.",
-    "image": "https://cdn.pixabay.com/photo/2016/11/21/15/53/adult-1848919_1280.jpg",
+    "image": "src/assets/Category-Headphone.png",
     "subcategories": [
       { "name": "Gym Equipment", "slug": "gym-equipment" },
       { "name": "Sportswear", "slug": "sportswear" },
@@ -288,7 +288,7 @@ export const categoryData = [
     "name": "Groceries",
     "slug": "groceries",
     "description": "Fresh fruits, vegetables, dairy, and daily essentials.",
-    "image": "https://cdn.pixabay.com/photo/2017/08/10/07/32/groceries-2615236_1280.jpg",
+    "image": "src/assets/Category-Gamepad.png",
     "subcategories": [
       { "name": "Fruits & Vegetables", "slug": "fruits-vegetables" },
       { "name": "Snacks & Beverages", "slug": "snacks-beverages" },
@@ -296,58 +296,58 @@ export const categoryData = [
       { "name": "Household Supplies", "slug": "household-supplies" }
     ]
   },
-  {
-    "id": "7",
-    "name": "Books & Stationery",
-    "slug": "books-stationery",
-    "description": "Books, art materials, and office supplies for all ages.",
-    "image": "https://cdn.pixabay.com/photo/2015/09/05/22/46/office-925806_1280.jpg",
-    "subcategories": [
-      { "name": "Novels", "slug": "novels" },
-      { "name": "Educational", "slug": "educational" },
-      { "name": "Office Supplies", "slug": "office-supplies" },
-      { "name": "Art & Craft", "slug": "art-craft" }
-    ]
-  },
-  {
-    "id": "8",
-    "name": "Toys & Baby Products",
-    "slug": "toys-baby",
-    "description": "Safe and fun products for your little ones.",
-    "image": "https://cdn.pixabay.com/photo/2016/03/27/07/08/teddy-bear-1280823_1280.jpg",
-    "subcategories": [
-      { "name": "Toys & Games", "slug": "toys-games" },
-      { "name": "Baby Care", "slug": "baby-care" },
-      { "name": "School Essentials", "slug": "school-essentials" },
-      { "name": "Baby Clothing", "slug": "baby-clothing" }
-    ]
-  },
-  {
-    "id": "9",
-    "name": "Automotive",
-    "slug": "automotive",
-    "description": "Car accessories, bike gear, and maintenance products.",
-    "image": "https://cdn.pixabay.com/photo/2016/11/29/09/32/auto-1868736_1280.jpg",
-    "subcategories": [
-      { "name": "Car Accessories", "slug": "car-accessories" },
-      { "name": "Bike Accessories", "slug": "bike-accessories" },
-      { "name": "Oils & Fluids", "slug": "oils-fluids" },
-      { "name": "Tyres & Parts", "slug": "tyres-parts" }
-    ]
-  },
-  {
-    "id": "10",
-    "name": "Furniture",
-    "slug": "furniture",
-    "description": "Stylish, comfortable furniture for every space.",
-    "image": "https://cdn.pixabay.com/photo/2017/03/28/12/10/living-room-2183992_1280.jpg",
-    "subcategories": [
-      { "name": "Living Room", "slug": "living-room" },
-      { "name": "Bedroom", "slug": "bedroom" },
-      { "name": "Office Furniture", "slug": "office-furniture" },
-      { "name": "Outdoor Furniture", "slug": "outdoor-furniture" }
-    ]
-  }
+  // {
+  //   "id": "7",
+  //   "name": "Books & Stationery",
+  //   "slug": "books-stationery",
+  //   "description": "Books, art materials, and office supplies for all ages.",
+  //   "image": "https://cdn.pixabay.com/photo/2015/09/05/22/46/office-925806_1280.jpg",
+  //   "subcategories": [
+  //     { "name": "Novels", "slug": "novels" },
+  //     { "name": "Educational", "slug": "educational" },
+  //     { "name": "Office Supplies", "slug": "office-supplies" },
+  //     { "name": "Art & Craft", "slug": "art-craft" }
+  //   ]
+  // },
+  // {
+  //   "id": "8",
+  //   "name": "Toys & Baby Products",
+  //   "slug": "toys-baby",
+  //   "description": "Safe and fun products for your little ones.",
+  //   "image": "https://cdn.pixabay.com/photo/2016/03/27/07/08/teddy-bear-1280823_1280.jpg",
+  //   "subcategories": [
+  //     { "name": "Toys & Games", "slug": "toys-games" },
+  //     { "name": "Baby Care", "slug": "baby-care" },
+  //     { "name": "School Essentials", "slug": "school-essentials" },
+  //     { "name": "Baby Clothing", "slug": "baby-clothing" }
+  //   ]
+  // },
+  // {
+  //   "id": "9",
+  //   "name": "Automotive",
+  //   "slug": "automotive",
+  //   "description": "Car accessories, bike gear, and maintenance products.",
+  //   "image": "https://cdn.pixabay.com/photo/2016/11/29/09/32/auto-1868736_1280.jpg",
+  //   "subcategories": [
+  //     { "name": "Car Accessories", "slug": "car-accessories" },
+  //     { "name": "Bike Accessories", "slug": "bike-accessories" },
+  //     { "name": "Oils & Fluids", "slug": "oils-fluids" },
+  //     { "name": "Tyres & Parts", "slug": "tyres-parts" }
+  //   ]
+  // },
+  // {
+  //   "id": "10",
+  //   "name": "Furniture",
+  //   "slug": "furniture",
+  //   "description": "Stylish, comfortable furniture for every space.",
+  //   "image": "https://cdn.pixabay.com/photo/2017/03/28/12/10/living-room-2183992_1280.jpg",
+  //   "subcategories": [
+  //     { "name": "Living Room", "slug": "living-room" },
+  //     { "name": "Bedroom", "slug": "bedroom" },
+  //     { "name": "Office Furniture", "slug": "office-furniture" },
+  //     { "name": "Outdoor Furniture", "slug": "outdoor-furniture" }
+  //   ]
+  // }
 ]
 
 export const bestSellingItems = [

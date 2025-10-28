@@ -8,7 +8,7 @@ const ProductCard = ({ item }) => {
   const totalStars = 5;
 
   return (
-    <div className="max-w-[270px] h-auto p-3 relative group bg-white shadow-md rounded-xl overflow-hidden">
+    <div className="max-w-[270px] h-auto p-3 relative group bg-white shadow-md rounded-xl overflow-hidden mt-6 ">
 
       {/* Top section with discount and icons */}
       <div className="flex items-start">

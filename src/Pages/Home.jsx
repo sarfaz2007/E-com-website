@@ -4,6 +4,7 @@ import Advertise from '../components/Advertise';
 import Sidebar from '../components/Sidebar';
 import MainBanner from '../components/Advertise';
 import TodaySale from '../components/TodaySale';
+import Category from '../components/Category';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
        </div>
     </div>
    <TodaySale/>
+   <Category/>
     </>
   )
 }
