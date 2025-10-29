@@ -1,22 +1,24 @@
 import React from 'react'
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Advertise from '../components/Advertise';
-import Sidebar from '../components/Sidebar';
-import MainBanner from '../components/Advertise';
-import TodaySale from '../components/TodaySale';
-import Category from '../components/Category';
+import MonthSale from '../components/Home/MonthSale';
+import Advertise from '../components/Home/Advertise';
+import TodaySale from '../components/Home/TodaySale';
+import Category from '../components/Home/Category';
+import Sidebar from '../components/Home/Sidebar';
 
 function Home() {
   return (
     <>
-    <div className='flex '>
-       <Sidebar/>
-       <div className='max-w-[60%] max-h-[400px] mx-auto'>
-        <MainBanner/>
-       </div>
-    </div>
-   <TodaySale/>
-   <Category/>
+      <div className='flex '>
+        <Sidebar />
+        <Advertise />
+        <div className='max-w-[60%] max-h-[400px] mx-auto'>
+          
+        </div>
+      </div>
+      <TodaySale />
+      <Category />
+      <MonthSale />
     </>
   )
 }

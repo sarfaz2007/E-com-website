@@ -259,10 +259,10 @@ export const categoryData = [
   },
   {
     "id": "4",
-    "name": "Beauty & Personal Care",
+    "name": "Camera",
     "slug": "beauty-personal-care",
     "description": "Skin care, grooming, and wellness essentials.",
-    "image": "src/assets/Category-Camera (1).png",
+    "image": "src/assets/camera.png",
     "subcategories": [
       { "name": "Makeup", "slug": "makeup" },
       { "name": "Hair Care", "slug": "hair-care" },
@@ -272,7 +272,7 @@ export const categoryData = [
   },
   {
     "id": "5",
-    "name": "Sports & Fitness",
+    "name": "Headphoones",
     "slug": "sports-fitness",
     "description": "Stay active with premium sportswear and fitness equipment.",
     "image": "src/assets/Category-Headphone.png",
@@ -285,7 +285,7 @@ export const categoryData = [
   },
   {
     "id": "6",
-    "name": "Groceries",
+    "name": "Gaming",
     "slug": "groceries",
     "description": "Fresh fruits, vegetables, dairy, and daily essentials.",
     "image": "src/assets/Category-Gamepad.png",
@@ -361,7 +361,7 @@ export const bestSellingItems = [
     "salePrice": 19999,
     "rating": 4.8,
     "reviewsCount": 8421,
-    "image": "https://cdn.pixabay.com/photo/2020/05/03/16/38/airpods-5123588_1280.jpg",
+    "image": "src/assets/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png",
     "stock": 150,
     "isBestSeller": true
   },

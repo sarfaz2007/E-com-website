@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from "react-icons/io";
-import {categoryData} from '../data/dummyData';
+import {categoryData} from '../../data/dummyData';
 
 const Category = () => {
   return (
@@ -28,10 +28,10 @@ const Category = () => {
             </button>
           </div>
         </div>
-        <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 border border-x-2'>
+        <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 '>
          {categoryData.map((item,index) =>(
-            <div key={index} className='bg-green-500'>
-              <img src={item.image} alt="" />
+            <div key={index} className='border-1 content-center pl-12'>
+              <img src={item.image} alt="" className='pl-' />
               <p>{item.name}</p>
             </div>
          ))}

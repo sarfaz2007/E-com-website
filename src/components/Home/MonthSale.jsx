@@ -2,12 +2,11 @@ import React from 'react'
 import { IoMdArrowRoundBack } from "react-icons/io";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import ProductCard from './ProductCard';
-import { flashSaleItems } from '../data/dummyData';
+import { flashSaleItems } from '../../data/dummyData';
 
-
-function TodaySale() {
+const MonthSale = () => {
     return (
-        <>
+        <div>
             <div className='w-full'>
                 <div className='h-12 flex p-2'>
                     <div className='flex p-2'>
@@ -38,8 +37,8 @@ function TodaySale() {
 
                 <div className='grid grid-cols-5 gap-5 '>
                     {
-                        flashSaleItems.map((item,index) => (
-                            <ProductCard key={index} item={item}/>
+                        bestSellingItems.map((item, index) => (
+                            <ProductCard key={index} item={item} />
                         ))
                     }
                 </div>
@@ -53,8 +52,8 @@ function TodaySale() {
 
 
             </div>
-        </>
+        </div>
     )
 }
 
-export default TodaySale
+export default MonthSale
