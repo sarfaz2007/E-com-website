@@ -3,6 +3,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
+
 function Advertise() {
     return (
         <>
@@ -17,24 +18,23 @@ function Advertise() {
                     {mainBannerData.map((item) => (
                         <SwiperSlide>
                             <div className="relative">
-                                <img src={item.image} alt="tedrt6s" className="w-full "/>
+                                <img src={item.image} alt="tedrt6s" className="w-full " />
                             </div>
                         </SwiperSlide>
                     ))}
                 </Swiper>
-                
+
             </div>
         </>
 
     )
 }
 
-export default Advertise
+export default Advertise;
 
 
 
 
-// const MainBanner = () => {
 //   const [currentIndex, setCurrentIndex] = useState(0);
 
 //   // Auto-slide every 3 seconds

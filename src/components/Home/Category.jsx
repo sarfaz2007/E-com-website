@@ -19,7 +19,7 @@ const Category = () => {
           <h2 className="">Browse By Category</h2>
 
           {/* Arrow Controls */}
-          <div className="flex gap-3 items-center">
+          <div className="flex gap-3 items-center mr-40">
             <button className="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition">
               <IoMdArrowRoundBack size={22} className="cursor-pointer" />
             </button>
@@ -28,7 +28,7 @@ const Category = () => {
             </button>
           </div>
         </div>
-        <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 '>
+        <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 mt-20'>
          {categoryData.map((item,index) =>(
             <div key={index} className='border-1 content-center pl-12'>
               <img src={item.image} alt="" className='pl-' />
