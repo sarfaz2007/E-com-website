@@ -31,7 +31,7 @@ const Category = () => {
         <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 mt-20'>
          {categoryData.map((item,index) =>(
             <div key={index} className='border-1 content-center pl-12'>
-              <img src={item.image} alt="" className='pl-' />
+              <img src={item.image} alt="" className='' />
               <p>{item.name}</p>
             </div>
          ))}

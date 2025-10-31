@@ -5,6 +5,7 @@ import TodaySale from '../components/Home/TodaySale';
 import Category from '../components/Home/Category';
 import Sidebar from '../components/Home/Sidebar';
 import Advertise from '../components/Home/Advertise';
+import Advertise2 from '../components/Home/Advertise2';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <TodaySale />
       <Category />
       <MonthSale />
+      <Advertise2/>
     </>
   )
 }

@@ -398,7 +398,7 @@ export const bestSellingItems = [
     "name": "Boat Stone 1000 Portable Bluetooth Speaker",
     "category": "Electronics",
     "description": "Small BookSelf",
-    // "originalPrice": 4999,
+    "originalPrice": 400,
     "discountPercent": 60,
     "salePrice": 360,
     "rating": 4.6,
