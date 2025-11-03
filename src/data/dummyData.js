@@ -679,3 +679,187 @@ export const productData = [
   }
 ];
 
+export const exploreProducts = [
+  {
+    "id": "1",
+    "name": "Apple iPhone 15 Pro Max",
+    "description": "6.7-inch Super Retina XDR display, A17 Pro chip, and triple-camera system.",
+    "category": "Mobiles",
+    "brand": "Apple",
+    "originalPrice": 159999,
+    "discountPercent": 12,
+    "salePrice": 140799,
+    "stock": 45,
+    "rating": 4.9,
+    "reviewsCount": 1328,
+    "image": "src/assets/71RdoeXxtrL 1.png",
+    "variants": [
+      { "color": "Natural Titanium", "storage": "256GB" },
+      { "color": "Blue Titanium", "storage": "512GB" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "OnePlus Nord CE 3 Lite 5G",
+    "description": "Smooth 120Hz display, Snapdragon 695, and 108MP AI triple camera.",
+    "category": "Mobiles",
+    "brand": "OnePlus",
+    "originalPrice": 22999,
+    "discountPercent": 17,
+    "salePrice": 18999,
+    "stock": 120,
+    "rating": 4.5,
+    "reviewsCount": 5821,
+    "image": "src/assets/eos-250d-03-500x500 1.png",
+    "variants": [
+      { "color": "Pastel Lime", "storage": "128GB" },
+      { "color": "Chromatic Gray", "storage": "256GB" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise cancellation with 30 hours of battery life.",
+    "category": "Electronics",
+    "brand": "Sony",
+    "originalPrice": 34999,
+    "discountPercent": 20,
+    "salePrice": 27999,
+    "stock": 75,
+    "rating": 4.8,
+    "reviewsCount": 912,
+    "image": "src/assets/ideapad-gaming-3i-01-500x500 1.png",
+    "variants": [
+      { "color": "Black" },
+      { "color": "Silver" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Men’s Slim Fit Cotton Shirt",
+    "description": "Classic slim fit formal shirt crafted with soft breathable cotton.",
+    "category": "Fashion",
+    "brand": "Levis",
+    "originalPrice": 1999,
+    "discountPercent": 40,
+    "salePrice": 1199,
+    "stock": 210,
+    "rating": 4.4,
+    "reviewsCount": 2131,
+    "image": "src/assets/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png",
+    "variants": [
+      { "color": "White", "size": "M" },
+      { "color": "Blue", "size": "L" },
+      { "color": "Gray", "size": "XL" }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Wooden Coffee Table",
+    "description": "Minimalist design coffee table made of solid oak wood with smooth finish.",
+    "category": "Furniture",
+    "brand": "UrbanCraft",
+    "originalPrice": 7499,
+    "discountPercent": 33,
+    "salePrice": 4999,
+    "stock": 65,
+    "rating": 4.6,
+    "reviewsCount": 987,
+    "image": "src/assets/New-Mercedes-Benz-Gtr-Licensed-Ride-on-Car-Kids-Electric-Toy-Car 1.png",
+    "variants": [
+      { "color": "Walnut" },
+      { "color": "Natural Oak" }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Puma Unisex Sneakers",
+    "description": "Lightweight everyday sneakers with flexible outsole and breathable mesh.",
+    "category": "Fashion",
+    "brand": "Puma",
+    "originalPrice": 4999,
+    "discountPercent": 42,
+    "salePrice": 2899,
+    "stock": 300,
+    "rating": 4.5,
+    "reviewsCount": 3430,
+    "image": "src/assets/Copa_Sense 1.png",
+    "variants": [
+      { "color": "Black", "size": "8" },
+      { "color": "White", "size": "9" }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "L’Oréal Paris Moisture Boost Cream",
+    "description": "Hydrating face cream enriched with Vitamin E and aloe vera for daily glow.",
+    "category": "Beauty & Personal Care",
+    "brand": "L’Oréal",
+    "originalPrice": 999,
+    "discountPercent": 25,
+    "salePrice": 749,
+    "stock": 800,
+    "rating": 4.6,
+    "reviewsCount": 1298,
+    "image": "src/assets/GP11_PRD3 1.png",
+    "variants": [
+      { "size": "50ml" },
+      { "size": "100ml" }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Organic Basmati Rice (5kg)",
+    "description": "Long-grain, aromatic organic basmati rice sourced from the Himalayas.",
+    "category": "Groceries",
+    "brand": "24 Mantra",
+    "originalPrice": 899,
+    "discountPercent": 22,
+    "salePrice": 699,
+    "stock": 400,
+    "rating": 4.7,
+    "reviewsCount": 2103,
+    "image": "src/assets/698717_Z8A1X_3475_001_100_0000_Light-Reversible-quilted-satin-jacket 1.png",
+    "variants": [
+      { "weight": "5kg" },
+      { "weight": "10kg" }
+    ]
+  },
+  // {
+  //   "id": "9",
+  //   "name": "Resistance Bands Set (5pcs)",
+  //   "description": "Adjustable workout resistance bands for strength and flexibility training.",
+  //   "category": "Sports & Fitness",
+  //   "brand": "FitGear",
+  //   "originalPrice": 1499,
+  //   "discountPercent": 40,
+  //   "salePrice": 899,
+  //   "stock": 220,
+  //   "rating": 4.8,
+  //   "reviewsCount": 1899,
+  //   "image": "https://cdn.pixabay.com/photo/2016/11/21/15/53/adult-1848919_1280.jpg",
+  //   "variants": [
+  //     { "level": "Light" },
+  //     { "level": "Medium" },
+  //     { "level": "Heavy" }
+  //   ]
+  // },
+  // {
+  //   "id": "10",
+  //   "name": "Philips Air Fryer HD9200",
+  //   "description": "Cook crispy fries with 90% less fat using rapid air technology.",
+  //   "category": "Home & Kitchen",
+  //   "brand": "Philips",
+  //   "originalPrice": 9999,
+  //   "discountPercent": 30,
+  //   "salePrice": 6999,
+  //   "stock": 150,
+  //   "rating": 4.7,
+  //   "reviewsCount": 3411,
+  //   "image": "https://cdn.pixabay.com/photo/2017/08/01/01/00/people-2568010_1280.jpg",
+  //   "variants": [
+  //     { "color": "Black" },
+  //     { "color": "White" }
+  //   ]
+  // }
+];
