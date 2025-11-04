@@ -8,7 +8,7 @@ const ExploreProducts = () => {
     <div className="w-full max-w-[1170px] mx-auto py-10">
       {/* Top Section */}
       <div className="flex items-center justify-between mb-6">
-        <div>
+        <div className=''>
           <p className="text-red-500 font-semibold text-sm mb-1">Our Products</p>
           <h2 className="text-2xl font-bold text-black">Explore Our Products</h2>
         </div>

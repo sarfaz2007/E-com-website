@@ -18,7 +18,7 @@ const ProductCard = ({ item }) => {
           </p>
         </div>
 
-        <div className="ml-auto flex gap-2">
+        <div className="ml-auto gap-2">
           <IoHeartOutline size={20} className="cursor-pointer" />
           <IoEyeOutline size={20} className="cursor-pointer" />
         </div>

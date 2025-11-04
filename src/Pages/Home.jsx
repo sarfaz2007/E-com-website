@@ -7,6 +7,7 @@ import Sidebar from '../components/Home/Sidebar';
 import Advertise from '../components/Home/Advertise';
 import Advertise2 from '../components/Home/Advertise2';
 import ExploreProducts from '../components/Home/ExploreProducts';
+import NewArrivals from '../components/Home/NewArrivals';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <MonthSale />
       <Advertise2/>
       <ExploreProducts/>
+      <NewArrivals/>
     </>
   )
 }

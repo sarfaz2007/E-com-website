@@ -683,12 +683,12 @@ export const exploreProducts = [
   {
     "id": "1",
     "name": "Apple iPhone 15 Pro Max",
-    "description": "6.7-inch Super Retina XDR display, A17 Pro chip, and triple-camera system.",
+    "description": "Breed dry dog food",
     "category": "Mobiles",
     "brand": "Apple",
-    "originalPrice": 159999,
+    "originalPrice": 150,
     "discountPercent": 12,
-    "salePrice": 140799,
+    "salePrice": 100,
     "stock": 45,
     "rating": 4.9,
     "reviewsCount": 1328,
@@ -862,4 +862,79 @@ export const exploreProducts = [
   //     { "color": "White" }
   //   ]
   // }
+];
+export const newArrivals = [
+  {
+    "id": "1",
+    "name": "Apple iPhone 15 Pro Max",
+    "description": "6.7-inch Super Retina XDR display, A17 Pro chip, and triple-camera system.",
+    "category": "Mobiles",
+    "brand": "Apple",
+    "originalPrice": 159999,
+    "discountPercent": 12,
+    "salePrice": 140799,
+    "stock": 45,
+    "rating": 4.9,
+    "reviewsCount": 1328,
+    "image": "src/assets/ps5-slim-goedkope-playstation_large 1.png",
+    "variants": [
+      { "color": "Natural Titanium", "storage": "256GB" },
+      { "color": "Blue Titanium", "storage": "512GB" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "OnePlus Nord CE 3 Lite 5G",
+    "description": "Smooth 120Hz display, Snapdragon 695, and 108MP AI triple camera.",
+    "category": "Mobiles",
+    "brand": "OnePlus",
+    "originalPrice": 22999,
+    "discountPercent": 17,
+    "salePrice": 18999,
+    "stock": 120,
+    "rating": 4.5,
+    "reviewsCount": 5821,
+    "image": "https://cdn.pixabay.com/photo/2017/06/10/07/18/mobile-2389328_1280.jpg",
+    "variants": [
+      { "color": "Pastel Lime", "storage": "128GB" },
+      { "color": "Chromatic Gray", "storage": "256GB" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise cancellation with 30 hours of battery life.",
+    "category": "Electronics",
+    "brand": "Sony",
+    "originalPrice": 34999,
+    "discountPercent": 20,
+    "salePrice": 27999,
+    "stock": 75,
+    "rating": 4.8,
+    "reviewsCount": 912,
+    "image": "https://cdn.pixabay.com/photo/2015/11/19/21/11/headphones-1058195_1280.jpg",
+    "variants": [
+      { "color": "Black" },
+      { "color": "Silver" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Men’s Slim Fit Cotton Shirt",
+    "description": "Classic slim fit formal shirt crafted with soft breathable cotton.",
+    "category": "Fashion",
+    "brand": "Levis",
+    "originalPrice": 1999,
+    "discountPercent": 40,
+    "salePrice": 1199,
+    "stock": 210,
+    "rating": 4.4,
+    "reviewsCount": 2131,
+    "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/men-1838940_1280.jpg",
+    "variants": [
+      { "color": "White", "size": "M" },
+      { "color": "Blue", "size": "L" },
+      { "color": "Gray", "size": "XL" }
+    ]
+  },
 ];
