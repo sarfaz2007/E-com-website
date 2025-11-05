@@ -938,3 +938,27 @@ export const newArrivals = [
     ]
   },
 ];
+export const services = [
+  {
+    "id": "1",
+    "title": "FREE AND FAST DELIVERY",
+    "desc": "Free delivery for all orders over $140",
+    "image": "src/assets/icon-delivery.png",
+   
+  },
+  {
+    "id": "2",
+    "title": "24/7 CUSTOMER SERVICE",
+    "desc": "Friendly 24/7 customer support",
+    "image": "src/assets/Icon-Customer service.png",
+ 
+  
+  },
+  {
+    "id": "3",
+    "title": "MONEY BACK QUARANTEE",
+    "desc": "We reurn money within 30 days",
+    "image": "src/assets/Icon-secure.png",
+  
+  },
+];

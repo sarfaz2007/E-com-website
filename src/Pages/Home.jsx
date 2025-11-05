@@ -8,6 +8,7 @@ import Advertise from '../components/Home/Advertise';
 import Advertise2 from '../components/Home/Advertise2';
 import ExploreProducts from '../components/Home/ExploreProducts';
 import NewArrivals from '../components/Home/NewArrivals';
+import Services from '../components/Services';
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
       <Advertise2/>
       <ExploreProducts/>
       <NewArrivals/>
+      <Services/>
     </>
   )
 }
