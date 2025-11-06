@@ -33,7 +33,7 @@ const NewArrivals = () => {
                         className='h-full w-full object-cover'
                     />
 
-                    <div className='absolute bottom-8 left-4 text-white'>
+                    <div className='absolute bottom-6 left-4 text-white'>
                         <h1 className='font-semibold text-2xl leading-14'>Womens Collection</h1>
                         <p className=''>Featured woman collections that <br /> give you another vibe.</p>
                         <a href="#" className='underline underline-offset-3'>Shop Now</a>
@@ -46,7 +46,7 @@ const NewArrivals = () => {
                                 alt=""
                                 className='object-contain'
                             />
-                            <div className='absolute text-white bottom-2'>
+                            <div className='absolute text-white bottom-2 left-5'>
                                 <h1 className='font-semibold text-2xl'>Speakers</h1>
                                 <p>Amazon wireless speakers</p>
                                 <a href="#" className='underline underline-offset-3'>Shop Now</a>
@@ -59,7 +59,7 @@ const NewArrivals = () => {
                                 alt=""
                                 className=' object-contain'
                             />
-                            <div className='absolute bottom-2 text-white'>
+                            <div className='absolute bottom-2 left-5 text-white'>
                                 <h1>Perfume</h1>
                                 <p>GUCCI INTENSE OUD EDP</p>
                                 <a href="#" className='underline underline-offset-3'>Shop Now</a>

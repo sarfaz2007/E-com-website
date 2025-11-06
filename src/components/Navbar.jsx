@@ -27,7 +27,7 @@ function Navbar() {
                     <a href="/">Home</a>
                     <a href="/About">About</a>
                     <a href="#">Contact</a>
-                    <a href="#">Sign Up</a>
+                    <a href="/Signup">Sign Up</a>
 
                     <div className="hidden lg:flex items-center text-sm gap-2 border border-gray-300 px-3 rounded-full">
                         <input className="py-1.5 w-[200px] bg-transparent outline-none  placeholder-gray-500" type="text" placeholder="What are you looking for?" />

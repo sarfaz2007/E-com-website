@@ -47,7 +47,7 @@ const ProductCard = ({ item }) => {
         <p className="text-sm line-through text-gray-500">${item.originalPrice}</p>
       </div>
 
-{/* Rating Section */}
+      {/* Rating Section */}
       <div className="flex items-center mt-2">
         {[...Array(totalStars)].map((_, index) =>
           index < Math.floor(rating) ? (
