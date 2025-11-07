@@ -2,7 +2,7 @@ import React from "react";
 
 const Advertise2 = () => {
   return (
-    <div className="max-w-[1170px] h-[500px] bg-black mx-auto py-10 px-10 flex justify-between items-center">
+    <div className="max-w-[1170px] h-[500px] bg-black mx-auto py-10 px-10 flex justify-between items-center my-28">
       {/* Left side */}
       <div className="flex flex-col gap-6">
         <p className="text-[#00FF66] font-semibold leading-[20px]">Categories</p>

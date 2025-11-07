@@ -1,6 +1,7 @@
 import React from 'react'
 import { GrFavorite } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
+import { RiAccountCircleLine } from "react-icons/ri";
 
 function Navbar() {
     return (
@@ -14,7 +15,7 @@ function Navbar() {
                 </h2>
 
                 <div className="flex items-center gap-2 text-white">
-                    English <input type="checkbox"/>
+                    English <input type="checkbox" />
                 </div>
             </div>
 
@@ -26,7 +27,7 @@ function Navbar() {
                 <div className="hidden sm:flex items-center gap-8 pr-10">
                     <a href="/">Home</a>
                     <a href="/About">About</a>
-                    <a href="#">Contact</a>
+                    <a href="/Contact">Contact</a>
                     <a href="/Signup">Sign Up</a>
 
                     <div className="hidden lg:flex items-center text-sm gap-2 border border-gray-300 px-3 rounded-full">
@@ -36,13 +37,22 @@ function Navbar() {
                             <path clip-rule="evenodd" d="M9.141 11.738c2.729-1.136 4.001-4.224 2.841-6.898S7.67.921 4.942 2.057C2.211 3.193.94 6.281 2.1 8.955s4.312 3.92 7.041 2.783" stroke="#7A7B7D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
                     </div>
+                    <div className='space-x-5 flex'>
+                        <div className="relative cursor-pointer">
+                            <GrFavorite />
+                        </div>
+                        <div className="relative cursor-pointer ">
+                            <BsCart3 />
+                        </div>
+                        <div className="relative cursor-pointer ">
+                            <RiAccountCircleLine />
+                            <div className='h-[208px] w-[225px] bg-gray-300'>
+                                
+                            </div>
+                        </div>
+                    </div>
 
-                    <div className="relative cursor-pointer">
-                        <GrFavorite />
-                    </div>
-                    <div className="relative cursor-pointer w-[100px]">
-                        <BsCart3 />
-                    </div>
+
 
 
                 </div>
