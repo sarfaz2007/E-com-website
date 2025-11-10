@@ -2,6 +2,7 @@ import React from 'react'
 import { GrFavorite } from "react-icons/gr";
 import { BsCart3 } from "react-icons/bs";
 import { RiAccountCircleLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -39,41 +40,73 @@ function Navbar() {
                     </div>
                     <div className='space-x-5 flex'>
                         <div className="relative cursor-pointer">
-                            <GrFavorite />
+                            <Link to="/wishlist">
+                                <GrFavorite />
+                            </Link>
+                            {/* <GrFavorite /> */}
                         </div>
                         <div className="relative cursor-pointer ">
                             <BsCart3 />
                         </div>
-                        <div className="relative cursor-pointer ">
-                            <RiAccountCircleLine />
-                            <div className='h-[208px] w-[225px] bg-gray-300'>
-                                
+                        <div className="relative cursor-pointer group">
+                            <RiAccountCircleLine className="text-xl" />
+
+                            {/* DROPDOWN */}
+                            <div className="absolute right-0 mt-2 w-[225px] bg-gradient-to-br from-[#4b3b60] to-[#2a2a33] text-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                                <div className="p-3 flex flex-col gap-4">
+
+                                    <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
+                                        <img src="src/assets/user (1).png" className="w-5" />
+                                        <p>Manage My Account</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
+                                        <img src="src/assets/icon-mallbag.png" className="w-5" />
+                                        <p>My Order</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
+                                        <img src="src/assets/icon-cancel.png" className="w-5" />
+                                        <p>My Cancellations</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
+                                        <img src="src/assets/Icon-Reviews.png" className="w-5" />
+                                        <p>My Reviews</p>
+                                    </div>
+
+                                    <div className="flex items-center gap-3 hover:text-red-400 cursor-pointer text-sm">
+                                        <img src="src/assets/Icon-logout.png" className="w-5" />
+                                        <p>Logout</p>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
+
+
+                    </div>
+
+                    <button onClick={() => open ? setOpen(false) : setOpen(true)} aria-label="Menu" className="sm:hidden">
+                        {/* Menu Icon SVG */}
+                        <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="21" height="1.5" rx=".75" fill="#426287" />
+                            <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#426287" />
+                            <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#426287" />
+                        </svg>
+                    </button>
+
+                    {/* Mobile Menu */}
+                    <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+                        <a href="/Home" className="block">Home</a>
+                        <a href="#" className="block">About</a>
+                        <a href="#" className="block">Contact</a>
+                        <button className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
+                            Login
+                        </button>
                     </div>
 
 
-
-
-                </div>
-
-                <button onClick={() => open ? setOpen(false) : setOpen(true)} aria-label="Menu" className="sm:hidden">
-                    {/* Menu Icon SVG */}
-                    <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect width="21" height="1.5" rx=".75" fill="#426287" />
-                        <rect x="8" y="6" width="13" height="1.5" rx=".75" fill="#426287" />
-                        <rect x="6" y="13" width="15" height="1.5" rx=".75" fill="#426287" />
-                    </svg>
-                </button>
-
-                {/* Mobile Menu */}
-                <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-white shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
-                    <a href="/Home" className="block">Home</a>
-                    <a href="#" className="block">About</a>
-                    <a href="#" className="block">Contact</a>
-                    <button className="cursor-pointer px-6 py-2 mt-2 bg-indigo-500 hover:bg-indigo-600 transition text-white rounded-full text-sm">
-                        Login
-                    </button>
                 </div>
 
             </nav>

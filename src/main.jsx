@@ -7,6 +7,7 @@ import Home from './Pages/Home.jsx'
 import About from './Pages/About.jsx'
 import Signup from './Pages/Signup.jsx'
 import LoginPage from './Pages/LoginPage.jsx'
+import Wishlist from './Pages/Wishlist.jsx'
 
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path:'/Login',
         element:<LoginPage/>
+      },
+      {
+        path:'/Wishlist',
+        element:<Wishlist/>
       },
     ]
   }

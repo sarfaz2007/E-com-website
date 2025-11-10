@@ -962,3 +962,78 @@ export const services = [
   
   },
 ];
+export const WishlistData = [
+  {
+    "id": "1",
+    "name": "Apple iPhone 15 Pro Max",
+    "description": "Breed dry dog food",
+    "category": "Mobiles",
+    "brand": "Apple",
+    "originalPrice": 150,
+    "discountPercent": 12,
+    "salePrice": 100,
+    "stock": 45,
+    "rating": 4.9,
+    "reviewsCount": 1328,
+    "image": "src/assets/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png",
+    "variants": [
+      { "color": "Natural Titanium", "storage": "256GB" },
+      { "color": "Blue Titanium", "storage": "512GB" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "OnePlus Nord CE 3 Lite 5G",
+    "description": "Smooth 120Hz display, Snapdragon 695, and 108MP AI triple camera.",
+    "category": "Mobiles",
+    "brand": "OnePlus",
+    "originalPrice": 22999,
+    "discountPercent": 17,
+    "salePrice": 18999,
+    "stock": 120,
+    "rating": 4.5,
+    "reviewsCount": 5821,
+    "image": "src/assets/gammaxx-l240-argb-1-500x500 1.png",
+    "variants": [
+      { "color": "Pastel Lime", "storage": "128GB" },
+      { "color": "Chromatic Gray", "storage": "256GB" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Sony WH-1000XM5 Headphones",
+    "description": "Industry-leading noise cancellation with 30 hours of battery life.",
+    "category": "Electronics",
+    "brand": "Sony",
+    "originalPrice": 34999,
+    "discountPercent": 20,
+    "salePrice": 27999,
+    "stock": 75,
+    "rating": 4.8,
+    "reviewsCount": 912,
+    "image": "src/assets/GP11_PRD3 1.png",
+    "variants": [
+      { "color": "Black" },
+      { "color": "Silver" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Men’s Slim Fit Cotton Shirt",
+    "description": "Classic slim fit formal shirt crafted with soft breathable cotton.",
+    "category": "Fashion",
+    "brand": "Levis",
+    "originalPrice": 1999,
+    "discountPercent": 40,
+    "salePrice": 1199,
+    "stock": 210,
+    "rating": 4.4,
+    "reviewsCount": 2131,
+    "image": "src/assets/698717_Z8A1X_3475_001_100_0000_Light-Reversible-quilted-satin-jacket 1.png",
+    "variants": [
+      { "color": "White", "size": "M" },
+      { "color": "Blue", "size": "L" },
+      { "color": "Gray", "size": "XL" }
+    ]
+  },
+]
