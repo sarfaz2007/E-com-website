@@ -46,7 +46,10 @@ function Navbar() {
                             {/* <GrFavorite /> */}
                         </div>
                         <div className="relative cursor-pointer ">
-                            <BsCart3 />
+                             <Link to="/Cart">
+                                <BsCart3 />
+                            </Link>
+                            
                         </div>
                         <div className="relative cursor-pointer group">
                             <RiAccountCircleLine className="text-xl" />
