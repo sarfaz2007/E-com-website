@@ -9,7 +9,7 @@ import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 const Wishlist = () => {
     return (
         <>
-            <div className='flex justify-between items-center mx-'>
+            <div className='flex justify-between items-center mx-10'>
                 <h3 className='text-2xl p-3'>Wishlist (4)</h3>
                 <button className='h-[56px] w-[223px] border rounded-sm text-center p-3'>
                     Move All To Bag

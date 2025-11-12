@@ -40,19 +40,24 @@ function Navbar() {
                     </div>
                     <div className='space-x-5 flex'>
                         <div className="relative cursor-pointer">
+
                             <Link to="/wishlist">
-                                <GrFavorite />
+
+                                <GrFavorite size={20} />
+                                <span className="absolute -top-1.5 -right-2 bg-red-500 text-white text-[10px] sm:text-xs w-4 h-4 flex items-center justify-center rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                    4
+                                </span>
                             </Link>
                             {/* <GrFavorite /> */}
                         </div>
                         <div className="relative cursor-pointer ">
-                             <Link to="/Cart">
-                                <BsCart3 />
+                            <Link to="/Cart">
+                                <BsCart3 size={20} />
                             </Link>
-                            
+
                         </div>
                         <div className="relative cursor-pointer group">
-                            <RiAccountCircleLine className="text-xl" />
+                            <RiAccountCircleLine size={20}/>
 
                             {/* DROPDOWN */}
                             <div className="absolute right-0 mt-2 w-[225px] bg-gradient-to-br from-[#4b3b60] to-[#2a2a33] text-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
