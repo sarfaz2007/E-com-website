@@ -1133,7 +1133,7 @@ export const CartData = [
   },
   {
     "id": "2",
-    "name": "IPS LCD Gaming Monitor",
+    "name": "H1 Gamepad",
     "description": "Smooth 120Hz display, Snapdragon 695, and 108MP AI triple camera.",
     "category": "Mobiles",
     "brand": "OnePlus",
