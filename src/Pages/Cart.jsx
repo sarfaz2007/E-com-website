@@ -1,8 +1,17 @@
 import React from 'react'
 import { CartData } from '../data/dummyData'
+import { Link } from "react-router-dom";
+
 
 const Cart = () => {
   return (
+    <>
+     <div className='flex max-w-5xl mx-auto mt-7'>
+      <Link to="/">
+      <p className='text-gray-400 hover:text-black'>Home /</p>
+      </Link>
+      <p>Cart</p>
+     </div>
     <div className="max-w-5xl mx-auto mt-10 mb-10">
       {/* Table Header */}
       <div className="grid grid-cols-4 text-center font-semibold  py-3">
@@ -65,7 +74,9 @@ const Cart = () => {
       <div className='flex gap-7'>
         <div className='flex '>
           <div className='w-[300px] h-[56px] border-2 rounded-sm pl-6 pt-2.5'>
-            <input type="text" placeholder='Coupon Code' className='text-xl' />
+            <input type="text" 
+            placeholder='Coupon Code' 
+            className='text-xl'/>
           </div>
           <div className='w-[211px] h-[56px] bg-[#DB4444] rounded-sm ml-5'>
             <p className='text-xl text-center p-3 text-white'>Apply Coupon</p>
@@ -81,21 +92,25 @@ const Cart = () => {
           <div className='flex justify-between border-b-1 my-3 pb-3'>
             <p className='text-xl'>Shipping</p>
             <p className='text-xl'>Free</p>
-
           </div>
           <div className='flex justify-between my-3 pb-3'>
             <p className='text-xl'>Total</p>
             <p className='text-xl'>$1750</p>
 
           </div>
-          <button className='w-[256px] h-[56px] bg-[#DB4444] rounded-sm ml-9'> 
-             <p className='text-white font-semibold text-xl'>Process To Checkout</p>
-          </button>
+          <Link to="/Checkout">
+            <button className="w-[256px] h-[56px] bg-[#DB4444] rounded-sm ml-9 hover:bg-[#bb3737] transition duration-200 cursor-pointer">
+              <p className="text-white font-semibold text-xl">
+                Proceed To Checkout
+              </p>
+            </button>
+          </Link>
 
         </div>
       </div>
 
     </div>
+  </>
   )
 }
 
