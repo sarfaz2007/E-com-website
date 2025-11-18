@@ -3,7 +3,7 @@ import React from 'react'
 const Checkout = () => {
     return (
         <>
-            <div className='max-w-5xl mx-auto'>
+            <div className='max-w-5xl mx-auto mb-14'>
                 <div className='flex gap-2.5 mx-auto mt-10 mb-10 '>
                     <p>Account /</p>
                     <p>My Account /</p>
@@ -14,50 +14,50 @@ const Checkout = () => {
                 <h1 className='text-3xl font-semibold pb-5'>Billing Details</h1>
                 <div className='flex'>
 
-                    <form action="" className='text-'>
-                        <div className='mb-10'>
+                    <form action="" className='w-[470px]'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="First Name"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="Company Name"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="Street Address"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="apartment,Floor,etc.(optional)"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="Town/City"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="Phone Number"
                                 className=" border-gray-400 focus:outline-none focus:border-black py-1"
                             />
                         </div>
-                        <div className='mb-10'>
+                        <div className='mb-14'>
                             <input
                                 type="text"
                                 placeholder="Email Address"
@@ -79,7 +79,7 @@ const Checkout = () => {
 
 
                     <div className=''>
-                        <div className="w-2/1">
+                        <div className="w-[527px]">
 
                             {/* Item 1 */}
                             <div className="flex items-center justify-between mb-5">
@@ -107,12 +107,12 @@ const Checkout = () => {
                                 <p className="font-semibold">$1100</p>
                             </div>
                             <div>
-                                <div className='flex justify-between border-b-1 my-3 pb-3'>
+                                <div className='flex justify-between border-b-1 border-b-gray-300 my-3 pb-3'>
                                     <p className='text-xl'>Subtotal:</p>
                                     <p className='text-xl'>$1750</p>
 
                                 </div>
-                                <div className='flex justify-between border-b-1 my-3 pb-3'>
+                                <div className='flex justify-between border-b-1 border-b-gray-300 my-3 pb-3'>
                                     <p className='text-xl'>Shipping</p>
                                     <p className='text-xl'>Free</p>
                                 </div>
@@ -122,29 +122,43 @@ const Checkout = () => {
 
                                 </div>
                             </div>
-                            <div className='flex gap-2.5 items-center '>
-                                <input type="radio" className='w-5 h-5'/>
-                                <p className='text-xl'>Bank</p>
-                                <div className='flex space-x-3'>
-                                    <img src="src/assets/image 32.png" alt="" className='object-contain'/>
-                                    <img src="src/assets/image 30.png" alt="" className='object-contain'/>
-                                    <img src="src/assets/image 31.png" alt="" className='object-contain'/>
-                                    <img src="src/assets/image 33.png" alt="" className='object-contain'/>
+                            <div className="flex items-center justify-between w-full">
+
+                                {/* Left Side: Radio + Bank */}
+                                <div className="flex items-center gap-3">
+                                    <input type="radio" className="w-5 h-5" />
+                                    <p className="text-xl">Bank</p>
                                 </div>
+
+                                {/* Right Side: Payment Logos */}
+                                <div className="flex items-center gap-4">
+                                    <img src="src/assets/image 32.png" alt="" className=" object-contain" />
+                                    <img src="src/assets/image 30.png" alt="" className=" object-contain" />
+                                    <img src="src/assets/image 31.png" alt="" className=" object-contain" />
+                                    <img src="src/assets/image 33.png" alt="" className=" object-contain" />
+                                </div>
+
                             </div>
+
                             <div className='flex mt-5 gap-2.5 items-center'>
-                                 <input type="radio" className='h-5 w-5 '/>
-                                 <p className='text-xl'>Cash on delivery</p>
+                                <input type="radio" className='h-5 w-5 ' />
+                                <p className='text-xl'>Cash on delivery</p>
                             </div>
-                            <div>
-                                <div className='w-[300px] h-[56px] border-2 rounded-sm'>
-                                     <button>
-                                        
-                                     </button>
-                                </div>
-                               
+                            <div className='mt-5 '>
+                                <button className='w-[300px] h-[56px] border-2 rounded-sm '>
+                                    <form action="">
+                                        <input type="text" placeholder='Coupon Code' className='focus:outline-none text-xl' />
+                                    </form>
+                                </button>
+                                <button className='w-[211px] h-[57px] bg-[#DB4444] ml-3 rounded-sm'>
+                                    <p className='text-white'>Apply Coupon</p>
+                                </button>
+
                             </div>
-                           
+                            <button className='w-[190px] h-[56px] bg-[#DB4444] rounded-sm mt-3'>
+                                <p className='text-white'>Place Order</p>
+                            </button>
+
 
                         </div>
 

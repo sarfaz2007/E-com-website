@@ -57,8 +57,11 @@ function Navbar() {
 
                         </div>
                         <div className="relative cursor-pointer group">
-                            <RiAccountCircleLine size={20}/>
+                            <Link to="/Account">
+                             <RiAccountCircleLine size={20}/>
 
+                            </Link>
+                           
                             {/* DROPDOWN */}
                             <div className="absolute right-0 mt-2 w-[225px] bg-gradient-to-br from-[#4b3b60] to-[#2a2a33] text-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
                                 <div className="p-3 flex flex-col gap-4">
