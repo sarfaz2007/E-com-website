@@ -8,7 +8,7 @@ import { flashSaleItems } from '../../data/dummyData';
 function TodaySale() {
     return (
         <>
-            <div className='w-full'>
+            <div className='w-[90%] mx-auto'>
                 <div className='h-12 flex p-2'>
                     <div className='flex p-2'>
                         <div className='h-8 w-5 bg-red-500 rounded-sm'></div>

@@ -1187,3 +1187,34 @@ export const CartData = [
   //   ]
   // },
 ]
+export const AboutpageSerives = [
+  {
+    "id": "1",
+    "title": "10.k",
+    "desc": "Sallers active our site",
+    "image": "src/assets/icon_shop.png",
+   
+  },
+  {
+    "id": "2",
+    "title": "33k",
+    "desc": "Monthly Product sale",
+    "image": "src/assets/Icon-Sale.svg",
+ 
+  
+  },
+  {
+    "id": "3",
+    "title": "45.5k",
+    "desc": "Customer active in our site",
+    "image": "src/assets/Icon-Shopping bag.png",
+  
+  },
+  {
+    "id": "4",
+    "title": "25k",
+    "desc": "Annual Gross in our sale",
+    "image": "src/assets/Icon-Moneybag.png",
+  
+  },
+];

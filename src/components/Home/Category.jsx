@@ -5,7 +5,7 @@ import { categoryData } from '../../data/dummyData';
 const Category = () => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-[90%] mx-auto">
         {/* Title Section */}
         <div className="h-12 flex items-center p-2">
           <div className="flex items-center p-2">

@@ -5,7 +5,7 @@ import { IoMdArrowRoundBack, IoMdArrowRoundForward } from 'react-icons/io';
 
 const ExploreProducts = () => {
   return (
-    <div className="w-full max-w-[1170px] mx-auto py-10">
+    <div className="w-full max-w-[90%] mx-auto py-10">
       {/* Top Section */}
       <div className="flex items-center justify-between mb-6">
         <div className=''>
