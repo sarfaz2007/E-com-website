@@ -1218,3 +1218,60 @@ export const AboutpageSerives = [
   
   },
 ];
+export const Aboutswiper = [
+  {
+    "id": "1",
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "description": "The North Coat",
+    "image": "src/assets/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png",
+   
+  },
+  {
+    "id": "2",
+    "name": "Nike Air Zoom Pegasus 40",
+    "description": "Gucci duffle bag",
+    "image": "src/assets/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png",
+    
+  },
+  {
+    "id": "3",
+    "name": "Samsung Galaxy S23 Ultra 5G",
+    "description": "RGB liquid CPU Cooler",
+
+    "image": "src/assets/gammaxx-l240-argb-1-500x500 1.png",
+    "stock": 80,
+    "isBestSeller": true
+  },
+];
+export const teamMembers = [
+  {
+    name: "Tom Cruise",
+    position: "Founder & Chairman",
+    image:
+      "https://img.freepik.com/premium-photo/friendly-smiling-businessman-looking-camera-with-reliability-isolated-white-background_256588-952.jpg?w=360",
+  },
+  {
+    name: "Emma Watson",
+    position: "Managing Director",
+    image:
+      "src/assets/image 51.png",
+  },
+  {
+    name: "Will Smith",
+    position: "Product Designer",
+    image:
+      "src/assets/image 47.png",
+  },
+  {
+    name: "Sophia Turner",
+    position: "Marketing Head",
+    image:
+      "https://img.freepik.com/free-photo/portrait-businessman-smiling_23-2150771049.jpg?semt=ais_hybrid&w=740&q=80",
+  },
+  {
+    name: "James Miller",
+    position: "UI/UX Designer",
+    image:
+      "https://img.freepik.com/free-photo/young-handsome-business-man-with-laptop-office_1303-21060.jpg",
+  },
+];

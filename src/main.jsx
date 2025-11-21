@@ -11,6 +11,7 @@ import Wishlist from './Pages/Wishlist.jsx'
 import Cart from './Pages/Cart.jsx'
 import Checkout from './Pages/Checkout.jsx'
 import Account from './Pages/Account.jsx'
+import Contact from './Pages/Contact.jsx'
 
 
 
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path:'/Account',
         element:<Account/>
+      },
+      {
+        path:'/Contact',
+        element:<Contact/>
       },
     ]
   }
