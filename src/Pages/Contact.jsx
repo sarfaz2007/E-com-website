@@ -40,7 +40,7 @@ const Contact = () => {
                             <p>Emails: Support@exclusive.com </p>
                         </div>
                     </div>
-                    <div className='w-[900px] h-[457px] bg-gray-400 p-8'>
+                    <div className='w-[900px] h-[457px]  p-8'>
                         <div>
                             <form action="" className='flex justify-between'>
                                 <input type="text"

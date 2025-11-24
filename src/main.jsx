@@ -12,6 +12,8 @@ import Cart from './Pages/Cart.jsx'
 import Checkout from './Pages/Checkout.jsx'
 import Account from './Pages/Account.jsx'
 import Contact from './Pages/Contact.jsx'
+import ErrorPage from './Pages/ErrorPage.jsx'
+import Productdetails from './Pages/Productdetails.jsx'
 
 
 
@@ -55,6 +57,14 @@ const router = createBrowserRouter([
       {
         path:'/Contact',
         element:<Contact/>
+      },
+      {
+        path:'/ErrorPage',
+        element:<ErrorPage/>
+      },
+      {
+        path:'/productdetails',
+        element:<Productdetails/>
       },
     ]
   }
