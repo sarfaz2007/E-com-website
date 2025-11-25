@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import { FiTruck } from "react-icons/fi";
 import { BiRefresh } from "react-icons/bi";
+import ProductCard from '../components/Home/ProductCard';
+import { flashSaleItems } from '../data/dummyData';
+
 
 const Productdetails = () => {
 
@@ -74,8 +77,8 @@ const Productdetails = () => {
                                 <button
                                     key={size}
                                     className={`px-3 py-1 border rounded ${size === "M"
-                                            ? "bg-red-500 text-white border-red-500"
-                                            : "hover:border-black"
+                                        ? "bg-red-500 text-white border-red-500"
+                                        : "hover:border-black"
                                         }`}
                                 >
                                     {size}
@@ -139,6 +142,24 @@ const Productdetails = () => {
                             </div>
 
                         </div>
+                    </div>
+                </div>
+                <div className="my-14">
+                    <div className='h-12 flex p-2'>
+                        <div className='flex p-2'>
+                            <div className='h-8 w-5 bg-red-500 rounded-sm'></div>
+                            <div>
+                                <h1 className='text-red-500 p-1 pl-2.5 font-bold'>Related item</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='grid grid-cols-5 gap-5 '>
+                        {
+                            flashSaleItems.map((item, index) => (
+                                <ProductCard key={index} item={item} />
+                            ))
+                        }
                     </div>
                 </div>
 
