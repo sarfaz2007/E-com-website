@@ -5,7 +5,7 @@ import { categoryData } from '../../data/dummyData';
 const Category = () => {
   return (
     <>
-      <div className="w-[90%] mx-auto">
+      <div className="w-[90%] mx-auto my-10">
         {/* Title Section */}
         <div className="h-12 flex items-center p-2">
           <div className="flex items-center p-2">
@@ -31,7 +31,7 @@ const Category = () => {
         <div className='grid grid-cols-6 max-w-[65%] mx-auto h-[150px] gap-3 mt-20'>
           {
             categoryData.map((item, index) => (
-              <div key={index} className='border-1 content-center pl-12'>
+              <div key={index} className='border-1 flex flex-col justify-center items-center '>
                 <img src={item.image} alt="" className='' />
                 <p>{item.name}</p>
               </div>

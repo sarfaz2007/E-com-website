@@ -6,7 +6,7 @@ import { bestSellingItems, flashSaleItems } from '../../data/dummyData';
 
 const MonthSale = () => {
     return (
-        <div className='max-w-[90%] mx-auto'>
+        <div className='max-w-[90%] mx-auto my-10'>
             <div className='w-full'>
                 <div className='h-12 flex p-2'>
                     <div className='flex p-2'>

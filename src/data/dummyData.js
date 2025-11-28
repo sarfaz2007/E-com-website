@@ -262,7 +262,7 @@ export const categoryData = [
     "name": "Camera",
     "slug": "beauty-personal-care",
     "description": "Skin care, grooming, and wellness essentials.",
-    "image": "src/assets/camera.png",
+    "image": "src/assets/Category-Camera (2).png",
     "subcategories": [
       { "name": "Makeup", "slug": "makeup" },
       { "name": "Hair Care", "slug": "hair-care" },

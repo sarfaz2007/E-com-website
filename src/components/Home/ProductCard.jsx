@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { use } from 'react'
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { IoHeartOutline, IoEyeOutline } from "react-icons/io5";
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../../redux/features/counterSlice';
 
 const ProductCard = ({ item }) => {
 
   const rating = item.rating || 4; // fallback rating
   const totalStars = 5;
+
+  const dispatch = useDispatch();
 
   return (
     <div className="max-w-[270px] h-auto p-3 relative group bg-white shadow-md rounded-xl overflow-hidden mt-6 ">
@@ -34,7 +38,7 @@ const ProductCard = ({ item }) => {
 
         {/* Add to Cart button (hidden until hover) */}
         <div className="absolute bottom-0 left-0 w-full opacity-0 translate-y-5 group-hover:translate-y-2 group-hover:opacity-100 transition-all duration-500 ease-in-out">
-          <button className="w-full bg-black text-white py-2 rounded-t-xl font-medium hover:bg-gray-800">
+          <button className="w-full bg-black text-white py-2 rounded-t-xl font-medium hover:bg-gray-800" onClick={()=>dispatch(addToCart(item))}>
             Add To Cart
           </button>
         </div>

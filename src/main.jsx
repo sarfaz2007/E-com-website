@@ -14,57 +14,59 @@ import Account from './Pages/Account.jsx'
 import Contact from './Pages/Contact.jsx'
 import ErrorPage from './Pages/ErrorPage.jsx'
 import Productdetails from './Pages/Productdetails.jsx'
+import { Provider } from 'react-redux'
+import store from './redux/store.js'
 
 
 
 const router = createBrowserRouter([
   {
-    path:'/',
-    element:<App/>,
-    children:[
+    path: '/',
+    element: <App />,
+    children: [
       {
-        path:'/',
-        element:<Home/>
+        path: '/',
+        element: <Home />
       },
       {
-        path:'/About',
-        element:<About/>
+        path: '/About',
+        element: <About />
       },
       {
-        path:'/Signup',
-        element:<Signup/>
+        path: '/Signup',
+        element: <Signup />
       },
       {
-        path:'/Login',
-        element:<LoginPage/>
+        path: '/Login',
+        element: <LoginPage />
       },
       {
-        path:'/Wishlist',
-        element:<Wishlist/>
+        path: '/Wishlist',
+        element: <Wishlist />
       },
       {
-        path:'/Cart',
-        element:<Cart/>
+        path: '/Cart',
+        element: <Cart />
       },
       {
-        path:'/Checkout',
-        element:<Checkout/>
+        path: '/Checkout',
+        element: <Checkout />
       },
       {
-        path:'/Account',
-        element:<Account/>
+        path: '/Account',
+        element: <Account />
       },
       {
-        path:'/Contact',
-        element:<Contact/>
+        path: '/Contact',
+        element: <Contact />
       },
       {
-        path:'/ErrorPage',
-        element:<ErrorPage/>
+        path: '/ErrorPage',
+        element: <ErrorPage />
       },
       {
-        path:'/productdetails',
-        element:<Productdetails/>
+        path: '/productdetails',
+        element: <Productdetails />
       },
     ]
   }
@@ -72,6 +74,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </StrictMode>,
 )
