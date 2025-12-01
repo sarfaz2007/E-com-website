@@ -1,13 +1,13 @@
 import React from 'react'
-import { CartData } from '../data/dummyData'
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import ProductCard from '../components/Home/ProductCard';
-
+import { Provider } from 'react-redux'; 
 
 const Cart = () => {
 
   const cartItems = useSelector((state) => state.counter.cartItems);
+  console.log("Cart Items from Redux Store:", cartItems);
 
   return (
     <>
@@ -27,7 +27,7 @@ const Cart = () => {
         </div>
 
         {/* Cart Items */}
-        {CartData.map((item, index) => (
+        {cartItems.map((item, index) => (
           <div
             key={index}
             className="grid grid-cols-4 items-center text-center py-4"
@@ -42,9 +42,6 @@ const Cart = () => {
                 <p className="font-medium">{item.name}</p>
               </div>
             </div>
-
-
-
             {/* Price */}
             <p className="text-gray-700">${item.salePrice}</p>
 
@@ -115,18 +112,18 @@ const Cart = () => {
         </div>
 
 
-        <div className='w-full h-52 my-10 flex items-center justify-center'>
+        {/* <div className='w-full h-52 my-10 flex items-center justify-center'>
           <div className='flex items-center flex-wrap gap-5'>
-            {/* <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(decrement())}>-</button> */}
-            {/* <p className='px-4 bg-red-300 rounded-2xl shadow'>{count}</p> */}
-            {/* <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(increment())}>+</button> */}
+            <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(decrement())}>-</button>
+            <p className='px-4 bg-red-300 rounded-2xl shadow'>{count}</p>
+            <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(increment())}>+</button>
             {
               cartItems.map((item, index) => (
                 <ProductCard key={index} item={item}/>
               ))
             }
           </div>
-        </div>
+        </div> */}
 
       </div>
     </>
