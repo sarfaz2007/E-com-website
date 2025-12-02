@@ -353,7 +353,7 @@ export const categoryData = [
 export const bestSellingItems = [
   {
     "id": "1",
-    "name": "Apple AirPods Pro (2nd Gen)",
+    "name": "The North Coat",
     "category": "Electronics",
     "description": "The North Coat",
     "originalPrice": 360,
@@ -367,7 +367,7 @@ export const bestSellingItems = [
   },
   {
     "id": "2",
-    "name": "Nike Air Zoom Pegasus 40",
+    "name": "Gucci Savoy Duffle Bag",
     "category": "Fashion",
     "description": "Gucci duffle bag",
     "originalPrice": 1160,
@@ -381,7 +381,7 @@ export const bestSellingItems = [
   },
   {
     "id": "3",
-    "name": "Samsung Galaxy S23 Ultra 5G",
+    "name": "RGB Liquid CPU Cooler",
     "category": "Mobiles",
     "description": "RGB liquid CPU Cooler",
     "originalPrice": 170,
@@ -395,7 +395,7 @@ export const bestSellingItems = [
   },
   {
     "id": "4",
-    "name": "Boat Stone 1000 Portable Bluetooth Speaker",
+    "name": "Small BookSelf",
     "category": "Electronics",
     "description": "Small BookSelf",
     "originalPrice": 400,
@@ -701,7 +701,7 @@ export const exploreProducts = [
   {
     "id": "2",
     "name": "OnePlus Nord CE 3 Lite 5G",
-    "description": "Smooth 120Hz display, Snapdragon 695, and 108MP AI triple camera.",
+    "description": "CANON EOS DSLR Camera",
     "category": "Mobiles",
     "brand": "OnePlus",
     "originalPrice": 22999,
@@ -719,7 +719,7 @@ export const exploreProducts = [
   {
     "id": "3",
     "name": "Sony WH-1000XM5 Headphones",
-    "description": "Industry-leading noise cancellation with 30 hours of battery life.",
+    "description": "ASUS FHD Gaming Laptop",
     "category": "Electronics",
     "brand": "Sony",
     "originalPrice": 34999,
@@ -737,7 +737,7 @@ export const exploreProducts = [
   {
     "id": "4",
     "name": "Men’s Slim Fit Cotton Shirt",
-    "description": "Classic slim fit formal shirt crafted with soft breathable cotton.",
+    "description": "S-Series Comfort Chair ",
     "category": "Fashion",
     "brand": "Levis",
     "originalPrice": 1999,
