@@ -38,7 +38,14 @@ const ProductCard = ({ item }) => {
 
         {/* Add to Cart button (hidden until hover) */}
         <div className="absolute bottom-0 left-0 w-full opacity-0 translate-y-5 group-hover:translate-y-2 group-hover:opacity-100 transition-all duration-500 ease-in-out">
-          <button className="w-full bg-black text-white py-2 rounded-t-xl font-medium hover:bg-gray-800" onClick={()=>dispatch(addToCart(item))}>
+          <button className="w-full bg-black text-white py-2 rounded-t-xl font-medium hover:bg-gray-800" onClick={()=>dispatch(addToCart({
+            id: item.id,
+            name: item.title || item.name,
+            description: item.description || '',
+            image: item.image,
+            salePrice: item.salePrice,
+            quantity: 2
+          }))}>
             Add To Cart
           </button>
         </div>

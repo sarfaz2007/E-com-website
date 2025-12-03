@@ -1,4 +1,5 @@
 import React from 'react'
+import { CheckoutData } from '../data/dummyData'
 
 const Checkout = () => {
     return (
@@ -83,14 +84,17 @@ const Checkout = () => {
 
                             {/* Item 1 */}
                             <div className="flex items-center justify-between mb-5">
-                                <div className="flex items-center gap-4">
-                                    <img
-                                        src="src/assets/Monitor-Cart-Small (1).png"
-                                        alt="LCD Monitor"
-                                        className="h-[54px] w-[54px] object-contain"
-                                    />
-                                    <p className="text-[18px] font-medium">LCD Monitor</p>
-                                </div>
+                                {CheckoutData.map((item) => (
+                                    <div className="flex  flex-col items-center gap-4 ">
+                                        <img
+                                            src={item.image}
+                                            alt="LCD Monitor"
+                                            className="h-[54px] w-[54px] object-contain"
+                                        />
+                                        <p className="text-[18px] font-medium">{item.title}</p>
+                                    </div>
+                                ))}
+
                                 <p className="font-semibold ml-10">$650</p>
                             </div>
 

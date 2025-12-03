@@ -95,7 +95,7 @@ export const mainBannerData = [
 export const flashSaleItems = [
   {
     "id": "1",
-    "title": "Wireless Earbuds Pro",
+    "title": "HAVIT HV-G92 Gamepad",
     "description": "HAVIT HV-G92 Gamepad",
     "originalPrice": 160,
     "discountPercent": -40,
@@ -108,7 +108,7 @@ export const flashSaleItems = [
   },
   {
     "id": "2",
-    "title": "Smart Fitness Watch",
+    "title": "AK-900 Wired Keyboard",
     "description": "AK-900 Wired Keyboard",
     "originalPrice": 1160,
     "discountPercent": -35,
@@ -120,7 +120,7 @@ export const flashSaleItems = [
   },
   {
     "id": "3",
-    "title": "Gaming Mouse RGB",
+    "title": "IPS LCD Gaming Monitor",
     "description": "IPS LCD Gaming Monitor",
     "originalPrice": 400,
     "discountPercent": -30,
@@ -132,7 +132,7 @@ export const flashSaleItems = [
   },
   {
     "id": "4",
-    "title": "Men’s Running Shoes",
+    "title": "S-Series Comfort Chair ",
     "description": "S-Series Comfort Chair ",
     "originalPrice": 400,
     "discountPercent": -25,
@@ -1274,4 +1274,29 @@ export const teamMembers = [
     image:
       "https://img.freepik.com/free-photo/young-handsome-business-man-with-laptop-office_1303-21060.jpg",
   },
+];
+export const CheckoutData = [
+  {
+    "id": "1",
+    "name": "Apple AirPods Pro (2nd Gen)",
+    "description": "The North Coat",
+    "image": "src/assets/g92-2-500x500 1 (1).svg",
+   
+  },
+  {
+    "id": "2",
+    "name": "Nike Air Zoom Pegasus 40",
+    "description": "Gucci duffle bag",
+    "image": "src/assets/g27cq4-500x500 1.svg",
+    
+  },
+  // {
+  //   "id": "3",
+  //   "name": "Samsung Galaxy S23 Ultra 5G",
+  //   "description": "RGB liquid CPU Cooler",
+
+  //   "image": "src/assets/gammaxx-l240-argb-1-500x500 1.png",
+  //   "stock": 80,
+  //   "isBestSeller": true
+  // },
 ];

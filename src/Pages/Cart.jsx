@@ -10,7 +10,7 @@ const Cart = () => {
     const updatedItems = items.filter(item => item.id !== id);
     setItems(updatedItems);
   };
-
+console.log({cartItems});
   return (
     <>
       <div className='flex max-w-5xl mx-auto mt-7'>

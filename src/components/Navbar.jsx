@@ -58,19 +58,19 @@ function Navbar() {
                         </div>
                         <div className="relative cursor-pointer group">
                             <Link to="/Account">
-                             <RiAccountCircleLine size={20}/>
+                                <RiAccountCircleLine size={20} />
 
                             </Link>
-                           
+
                             {/* DROPDOWN */}
                             <div className="absolute right-0 mt-2 w-[225px] bg-gradient-to-br from-[#4b3b60] to-[#2a2a33] text-white rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
                                 <div className="p-3 flex flex-col gap-4">
-
-                                    <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
-                                        <img src="src/assets/user (1).png" className="w-5" />
-                                        <p>Manage My Account</p>
-                                    </div>
-
+                                    <Link to="/Account">
+                                        <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
+                                            <img src="src/assets/user (1).png" className="w-5" />
+                                            <p>Manage My Account</p>
+                                        </div>
+                                    </Link>
                                     <div className="flex items-center gap-3 hover:text-purple-300 cursor-pointer text-sm">
                                         <img src="src/assets/icon-mallbag.png" className="w-5" />
                                         <p>My Order</p>

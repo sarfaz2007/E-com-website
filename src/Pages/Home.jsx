@@ -36,13 +36,6 @@ console.log({count});
       <NewArrivals/>
       <Services/>
 
-      <div className='w-full h-52 my-10 flex items-center justify-center'>
-        <div className='flex items-center'>
-          <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(decrement())}>-</button>
-          <p className='px-4'>{count}</p>
-          <button className='px-4 py-2 rounded-md bg-amber-300 shadow' onClick={() => dispatch(increment())}>+</button>
-        </div>
-      </div>
     </>
   )
 }

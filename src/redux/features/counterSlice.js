@@ -21,6 +21,7 @@ export const counterSlice = createSlice({
         console.log("Adding to cart in counterSlice:", action.payload);
       state.cartItems.push(action.payload);
     },
+    
   },
 })
 
