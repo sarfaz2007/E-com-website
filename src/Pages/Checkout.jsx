@@ -2,6 +2,8 @@ import React from 'react'
 import { CheckoutData } from '../data/dummyData'
 
 const Checkout = () => {
+
+
     return (
         <>
             <div className='max-w-5xl mx-auto mb-14'>

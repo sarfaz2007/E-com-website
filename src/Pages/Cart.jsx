@@ -2,15 +2,11 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { useSelector } from 'react-redux';
 import ProductCard from '../components/Home/ProductCard';
+import { removeFromCart } from '../redux/features/counterSlice';
 const Cart = () => {
 
   const cartItems = useSelector((state) => state.counter.cartItems);
 
-   const handleDelete = (id) => {
-    const updatedItems = items.filter(item => item.id !== id);
-    setItems(updatedItems);
-  };
-console.log({cartItems});
   return (
     <>
       <div className='flex max-w-5xl mx-auto mt-7'>
@@ -36,9 +32,10 @@ console.log({cartItems});
           >
             <div>
               <div className="flex items-center gap-3 justify-center">
-                <div className='w-4 h-4 bg-[#DB4444] justify-center items-center flex rounded-full cursor-pointer' onClick={() => handleDelete(item.id)}>
+                <div className='w-4 h-4 bg-[#DB4444] justify-center items-center flex rounded-full cursor-pointer' onClick={() => removeFromCart(item.id)}>
                   <img src="src/assets/Vector.svg" alt="" />
                 </div>
+               
                 
                 <img
                   src={item.image}
